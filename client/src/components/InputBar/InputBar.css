@@ -1,0 +1,31 @@
+
+
+.form {
+    display: flex;
+    align-items: center;
+    height: 10%;
+}
+
+.form input, .form button {
+    border: none;
+    outline: none;
+    flex: 90%;
+    height: 100%;
+    font-size: 18px;
+    padding: 10px 25px;
+    color: #555555;
+}
+
+.form input {
+    background-color: #eeeeee;
+    border-bottom-left-radius: 3px;
+}
+
+.form button {
+    flex: 10%;
+    color: #ffffff;
+    background-color: #0009B7;
+    border-bottom-right-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+}

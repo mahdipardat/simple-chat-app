@@ -1,0 +1,29 @@
+
+.infoBarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    border-bottom: 2px solid #dddddd;
+    padding: 5px 20px;
+}
+
+.infoBarContainer i {
+    color: #0009B7;
+    font-size: 30px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+}
+
+.avatar i {
+    font-size: 40px;
+    margin-right: 40px;
+}
+
+.avatar span {
+    font-size: 25px;
+    text-transform: uppercase;
+}

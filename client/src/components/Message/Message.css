@@ -1,0 +1,32 @@
+
+
+.messageContainer {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.me {
+    flex-direction: row-reverse;
+}
+
+.me-chat {
+    display: inline-flex;
+    border-radius: 10px;
+    background-color: #10bce2;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    justify-content: flex-end;
+}
+
+.client-chat {
+    display: inline-flex;
+    margin-right: 15px;
+    font-weight: 500;
+    background-color: #eeeeee;
+    color: #444444;
+    padding: 10px;
+    border-radius: 10px;
+}

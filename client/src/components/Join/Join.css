@@ -1,0 +1,59 @@
+
+
+.joinOuterContainer {
+    width: 100%;
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #0009B7, #7814C8);
+    color: #10bce2;
+}
+
+.joinInnerContainer {
+    width: 25%;
+    margin: 0 auto;
+    padding: 25px 10px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.heading {
+    font-size: 60px;
+}
+
+.joinInput , .joinInput:focus {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-bottom: 2px solid #038ead;
+    margin: 10px auto;
+    transition: all 2s ease-out;
+    background-color: #f5f5f5;
+    color: #038ead;
+    }
+
+.button {
+    display: inline-block;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #038ead;
+    border-radius: 4px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .joinInnerContainer {
+        width: 100%;
+    }
+}
